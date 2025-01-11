@@ -6,6 +6,7 @@
   font-family: "Poppins", serif;
 }
 
+
 /* nav styles start  */
 
 .naver {
@@ -96,3 +97,66 @@
 }
 
 /* Banner Section End */
+
+/* Cart section start  */
+
+section h2 {
+  width: 100%;
+  height: 48px;
+  color: #0e0e0e;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 80px;
+  padding-left: 40px;
+  
+  
+}
+
+.cart-1 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+  padding: 24px;
+}
+
+.card {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 24px;
+  box-shadow: 1px 1px 3px;
+  transition: 0.1s;
+}
+.card img {
+      padding-bottom: 24px;
+}
+
+.card h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+
+.card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.card:hover {
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding: 24px;
+  box-shadow: 5px 5px 15px;
+}
+/* Cart section start  */
