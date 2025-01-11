@@ -372,15 +372,85 @@ td {
 }
 th {
   background-color: #d9f2d9;
-  border-right: 1px solid #ccc; 
+  border-right: 1px solid #ccc;
 }
 td:first-child {
-  border-right: 1px solid #ccc; 
+  border-right: 1px solid #ccc;
 }
 td select {
-  background-color: #e6ffe6; 
+  background-color: #e6ffe6;
   border: 1px solid #ccc;
   padding: 5px;
 }
 
 /* Opinion styles End  */
+
+/* News section srart  */
+
+.recent h1 {
+  color: #0e0e0e;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 80px;
+  padding-bottom: 12px;
+}
+.recent p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.resent-news {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 24px;
+  background: #fff;
+  padding: 48px;
+}
+.resentImg {
+  width: 500px;
+  height: 306px;
+  border-radius: 24px;
+  background: url(B11A1--assignment-1/assets/satelite.png) lightgray 50% / cover
+    no-repeat;
+  text-align: right;
+}
+
+.resentCnt {
+  width: 50%;
+  text-align: left;
+}
+.resentCnt h2 {
+  padding-bottom: 12px;
+}
+.resentCnt .al {
+  padding-bottom: 12px;
+}
+.resentCnt p {
+  padding-bottom: 12px;
+}
+.resentCnt button {
+  border-radius: 8px;
+  background: #006a50;
+  padding: 13px 26px;
+  color: #fff;
+  border: none;
+  transition: 0.3s;
+}
+.resentCnt button:hover {
+  border-radius: 8px;
+  background: #006a50;
+  padding: 13px 26px;
+  color: #fff;
+  border: none;
+  transform: scale(1.1);
+}
+/* News section End  */
