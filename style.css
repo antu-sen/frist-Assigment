@@ -5,7 +5,10 @@
   padding: 0;
   font-family: "Poppins", serif;
 }
-
+.container {
+  width: 1400px;
+  margin: auto;
+}
 
 /* nav styles start  */
 
@@ -56,6 +59,7 @@
   border-radius: 24px;
   background: #c6e4d6;
   gap: 64px;
+  padding-bottom: 80px;
 }
 .banner-1 h4 {
   color: rgba(14, 14, 14, 0.5);
@@ -99,6 +103,9 @@
 /* Banner Section End */
 
 /* Cart section start  */
+.hero {
+  padding-bottom: 80px;
+}
 
 section h2 {
   width: 100%;
@@ -111,13 +118,11 @@ section h2 {
   line-height: normal;
   margin-top: 80px;
   padding-left: 40px;
-  
-  
 }
 
 .cart-1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 32px;
   padding: 24px;
 }
@@ -128,10 +133,10 @@ section h2 {
   background: #fff;
   padding: 24px;
   box-shadow: 1px 1px 3px;
-  transition: 0.1s;
+  transition: 1s;
 }
 .card img {
-      padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .card h3 {
@@ -158,5 +163,179 @@ section h2 {
   background: #fff;
   padding: 24px;
   box-shadow: 5px 5px 15px;
+  transform: rotate(360deg);
 }
-/* Cart section start  */
+/* Cart section End */
+
+/* Main section start  */
+
+.main h1 {
+  color: #0e0e0e;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 80px;
+}
+
+.main p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.main-1 {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 12px;
+  gap: 24px;
+}
+.mainbox {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  transition: 1s;
+  margin-bottom: 32px;
+}
+.mainbox:hover {
+      box-shadow: 4px 4px 15px;
+}
+.mainbox img {
+  padding-bottom: 24px;
+}
+.mainbox h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Poppins", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 12px;
+}
+.mainbox p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 24px;
+}
+.mainbox-1 {
+  border-radius: 16px;
+  border: 0px solid #5490f5;
+  background: rgba(84, 144, 245, 0.2);
+}
+
+.btn {
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  background: #5490f5;
+  border: none;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.btn-3 {
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  background: #09a15c;
+  border: none;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-3:hover {
+  transform: scale(1.2);
+}
+
+.btn-4 {
+  width: 122px;
+  height: 41px;
+  border-radius: 8px;
+  background: #ffc239;
+  border: none;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-4:hover {
+  transform: scale(1.2);
+}
+
+.mainbox-2 {
+  border-radius: 16px;
+  border: 0px solid #09a15c;
+  background: #c6e4d6;
+}
+.mainbox-3 {
+  border-radius: 16px;
+  border: 0px solid #ffc239;
+  background: #f7ebcf;
+}
+.yunus {
+  display: flex;
+  position: relative;
+  padding: 48px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex: 1 0 0;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: #fff;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.yunus p {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 12px;
+}
+.y-img {
+  position: absolute;
+  top: 23px;
+  left: 32px;
+}
+
+.yunus p {
+  position: inherit;
+}
+/* Main section End  */
