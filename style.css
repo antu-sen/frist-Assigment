@@ -9,6 +9,9 @@
   width: 1400px;
   margin: auto;
 }
+body {
+  background-color: #f1f1f3;
+}
 
 /* nav styles start  */
 
@@ -207,7 +210,7 @@ section h2 {
   margin-bottom: 32px;
 }
 .mainbox:hover {
-      box-shadow: 4px 4px 15px;
+  box-shadow: 4px 4px 15px;
 }
 .mainbox img {
   padding-bottom: 24px;
@@ -339,3 +342,45 @@ section h2 {
   position: inherit;
 }
 /* Main section End  */
+
+/* Opinion styles start  */
+.opinion h2 {
+  color: #0e0e0e;
+  font-family: "Poppins", serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 24px;
+  padding-left: 0px;
+}
+.table {
+  border-radius: 16px;
+  background: #fff;
+  padding: 32px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+th {
+  background-color: #d9f2d9;
+  border-right: 1px solid #ccc; 
+}
+td:first-child {
+  border-right: 1px solid #ccc; 
+}
+td select {
+  background-color: #e6ffe6; 
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/* Opinion styles End  */
