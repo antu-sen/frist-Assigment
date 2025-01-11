@@ -546,6 +546,11 @@ td select {
   cursor: pointer;
 }
 
+/* donad styles End */
+
+
+/* Footer style start  */
+
 .footer {
   width: 1280px;
   padding: 80px 100px;
@@ -607,15 +612,29 @@ td select {
   font-weight: 400;
   line-height: normal;
   border: none;
-  
-  
 }
 
 .btn-last {
-      width: 155px;
-      height: 55px;
-      background: #006a50;
-      border: none;
-  
-  
+  width: 155px;
+  height: 55px;
+  background: #006a50;
+  border: none;
 }
+
+.last {
+  color: #0e0e0e;
+  font-family:"Poppins" serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+.icon {
+      align-items: center;
+     
+}
+/* Footer style start  */
